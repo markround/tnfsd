@@ -7,7 +7,7 @@ Simple Docker container to run the TNFSD server daemon for Spectranet
 docker run --rm -d \
   -v $PWD:/data \
   -p 16384:16384/udp \
-  markdr/tnfsd \
+  markdr/tnfsd 
 ```
 
 # Other information
